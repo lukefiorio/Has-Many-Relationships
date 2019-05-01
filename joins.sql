@@ -135,8 +135,6 @@ WHERE
 -- #13
 
 SELECT
-  posts.user_id post_userId,
-  comments.user_id comment_userId,
   up.first_name post_author_first_name,
   up.last_name post_author_last_name,
   posts.title post_title,
